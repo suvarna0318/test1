@@ -1,1 +1,1 @@
-web:gunicorn shoppinglist_django:wsgi
+web: gunicorn shoppinglist_django:wsgi
