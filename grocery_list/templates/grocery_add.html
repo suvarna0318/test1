@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p>Add Items Here</p>
+<form method="POST">
+	{% csrf_token %}
+{{form.as_p}}
+<button class="btn btn-info" type='submit'>Add</button>
+</form>
+</body>
+</html>
